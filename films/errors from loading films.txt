@@ -1,0 +1,242 @@
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(CC80) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(ECn107) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(JuD11) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(FB21) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(GCt30) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(FNm10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(RC5) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MLR6) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(RdR38) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Becky Sharp, 1935, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Rings on her Fingers, 1942, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Summer Holiday, 1948, Musc, Am).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Silk Stockings, 1957, Musc, Fr).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Menschen am Sonntag, 1929, Docu, Ge).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Pi\`eges, 1939, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Son of Dracula, 1943, Horr, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Cobra Woman, 1944, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Phantom Lady, 1944, Noir, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, The Spiral Staircase, 1945, Susp, Am).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Nocturne, 1946, Myst, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, The Killers, 1946, Noir, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, The Dark Mirror, 1946, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, Criss Cross, 1948, Dram, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, The Spiral Staircase, 1948, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, The Crimson Pirate, 1952, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(IAg10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(OP13) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(GSt3) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(ChC5) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(ChC12) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(ChC15) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(PaJ2) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(FZ8) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MRs21) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(LAl4) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(CoB1) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(NR1) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(HyC10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(JLT50) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(JIv42) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(SR45) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(GeP15) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(ArH205) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MBo12) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(GxR10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(GxR10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(JaS13) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(KRu25) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MAp43) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(FrW10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(JRl10) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(PDu10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MeW10) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(JKp35) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(GeM17) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MxS10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(NiM30) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(DDo15) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(FOR12) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(PAl4) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(BLe5) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(KaK10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(LeN10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(AKo15) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(ThS5) already exists.
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+null value in column "film_id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(AnL15) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(MiM10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(NtB10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(PSv10) already exists.
+
+duplicate key value violates unique constraint "films_pkey"
+DETAIL:  Key (film_id)=(SfG1) already exists.

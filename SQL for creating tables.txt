@@ -1,0 +1,150 @@
+create table countries (
+    country_code char(2),
+    country_name varchar(64),
+    adjective varchar(64),
+
+    primary key (country_code)
+);
+
+create table film_categories (
+    category_code char(4),
+    category varchar(64),
+
+    primary key (category_code)
+);
+
+create table people (
+    person_id varchar(64),
+    first_name varchar(64),
+    last_name varchar(64),
+    stage_name varchar(64),
+    birth_date int,
+    death_date int,
+    work_start_date int,
+    work_end_date int,
+    gender char(1),
+    typical_role varchar(1024),
+    country_code char(2),
+
+    primary key (person_id),
+    foreign key (country_code) references countries on update cascade on delete restrict
+);
+
+create table films (
+    film_id varchar(16),
+    title varchar(64),
+    year int,
+    category_code char(4),
+    country_code char(2),
+
+    primary key (film_id),
+    foreign key (category_code) references film_categories on update cascade on delete restrict,
+    foreign key (country_code) references countries on update cascade on delete restrict
+);
+
+create table award_types (
+    award_code varchar(16),
+    award_name varchar(64),
+    organization varchar(64),
+    country_code char(2),
+
+    primary key (award_code),
+    foreign key (country_code) references countries on update cascade on delete restrict
+);
+
+create table role_types (
+    role_type_code char(3),
+    role_type varchar(64),
+
+    primary key(role_type_code)
+);
+
+create table roles (
+    film_id varchar(16),
+    person_id varchar(64),
+    role_type_code char(3),
+    role_description varchar(1024),
+    character_name varchar(64),
+
+    primary key (film_id, person_id),
+    foreign key (film_id) references films on update cascade on delete cascade,
+    foreign key (person_id) references people on update cascade on delete restrict,
+    foreign key (role_type_code) references role_types on update cascade on delete restrict
+);
+
+create table directed (
+    film_id varchar(16),
+    person_id varchar(64),
+
+    primary key (film_id, person_id),
+    foreign key (film_id) references films on update cascade on delete cascade,
+    foreign key (person_id) references people on update cascade on delete restrict
+);
+
+create table produced (
+    film_id varchar(16),
+    person_id varchar(64),
+
+    primary key (film_id, person_id),
+    foreign key (film_id) references films on update cascade on delete cascade,
+    foreign key (person_id) references people on update cascade on delete restrict
+);
+
+create table studios (
+    studio_name varchar(64),
+    company varchar(64),
+    start_date int,
+    end_date int,
+    city varchar(64),
+    country_code char(2),
+
+    primary key(studio_name),
+    foreign key (country_code) references countries on update cascade on delete restrict
+);
+
+create table founded (
+    studio_name varchar(64),
+    person_id varchar(64),
+
+    primary key (studio_name, person_id),
+    foreign key (studio_name) references studios on update cascade on delete cascade,
+    foreign key (person_id) references people on update cascade on delete restrict
+);
+
+create table sponsored (
+    film_id varchar(16),
+    studio_name varchar(64),
+
+    primary key (film_id, studio_name),
+    foreign key (film_id) references films on update cascade on delete cascade,
+    foreign key (studio_name) references studios on update cascade on delete restrict
+);
+
+create table remakes (
+    original_film_id varchar(16),
+    remake_film_id varchar(16),
+    similarity float,
+
+    primary key (original_film_id, remake_film_id),
+    foreign key (original_film_id) references films on update cascade on delete restrict,
+    foreign key (remake_film_id) references films on update cascade on delete cascade
+);
+
+create table role_awards (
+    film_id varchar(16),
+    person_id varchar(64),
+    award_code varchar(16),
+
+    primary key (film_id, person_id, award_code),
+    foreign key (film_id, person_id) references roles on update cascade on delete cascade,
+    foreign key (award_code) references award_types on update cascade on delete restrict
+);
+
+create table film_awards (
+    film_id varchar(16),
+    award_code varchar(16),
+    
+    primary key (film_id, award_code),
+    foreign key (film_id) references films on update cascade on delete cascade,
+    foreign key (award_code) references award_types on update cascade on delete restrict
+);
