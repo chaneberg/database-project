@@ -1,0 +1,27 @@
+48938 total rows
+26654 entered successfully
+18607 errors
+3677 unaccounted for
+
+Breakdown by error type:
+
+17089
+insert or update on table "roles" violates foreign key constraint "roles_person_id_fkey"
+
+887
+insert or update on table "roles" violates foreign key constraint "roles_film_id_fkey"
+
+286
+value too long for type character(3)
+
+181
+duplicate key value violates unique constraint "roles_pkey"
+
+159
+insert or update on table "roles" violates foreign key constraint "roles_role_type_code_fkey"
+
+3
+null value in column "person_id" violates not-null constraint
+
+2
+null value in column "film_id" violates not-null constraint
