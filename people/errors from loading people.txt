@@ -1,0 +1,101 @@
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Abramson) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(J.Harrison) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Herman) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Herrmann) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Makmalbaf) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Merendino) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(N.Nosseck) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Wickes) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Kenneth Branagh) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Wilford Brimley) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(William Devane) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Derek Farr) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Charles Farrell) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Frances Fisher) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Peter Graves) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Laurence Harvey) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Nicky Henson) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(William Holden) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Rex Ingram) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Anthony Kimmins) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Charles King) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Jack Lambert) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Jane March) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Spanky McFarland) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Mary Morris) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Jennifer ONeill) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Pal) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Raymond Pellegrin) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Prince) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Harvey Stephens) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Sting) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Ann Todd) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Beverly Tyler) already exists.
+
+duplicate key value violates unique constraint "people_pkey"
+DETAIL:  Key (person_id)=(Vanessa Williams) already exists.

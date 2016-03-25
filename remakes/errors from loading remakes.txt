@@ -1,0 +1,461 @@
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(LuB0) is not present in table "films".
+
+invalid input syntax for type double precision: "0.9>"
+LINE 1: insert into remakes values ('GSy11', 'AII1', '0.9>')
+                                                     ^
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(PeG5) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(TGi28) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(AMa29) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(KgH15) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(KgH10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(NML26) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(NoL20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(BE45) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=( WiW20) is not present in table "films".
+
+invalid input syntax for type double precision: "0.9>"
+LINE 1: insert into remakes values ('RiF25', 'BTh13', '0.9>')
+                                                      ^
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(PVh20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(MAr10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(CDM4) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(CDM4) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(CEa40) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(CEa42) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(CGl50) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RM8) is not present in table "films".
+
+invalid input syntax for type double precision: "0.8."
+LINE 1: insert into remakes values ('LuH10', 'CyE30', '0.8.')
+                                                      ^
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(AMa29) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(FC24) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UNS) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(Wi3) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RSi20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JMS30) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JMS25) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(AMa18) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(SiH20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(W13) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=( PBo3) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JLD10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(GMy35) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(GPa2) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(HHH1) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(LO12) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(HFr10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(W3) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(HHa19) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(PS10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(CBa10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(HY118) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RDR32) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(MiG10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(IMvS6) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(GPa2) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(IrC10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(JnB70) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(JaS44) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(KV51) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RRw5) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RM16) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(JlC21) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(JLG20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(JLT25) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(MxN10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(JNs410) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RCoxx) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(LMa8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JoW10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(KKo36) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RM8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(KV67) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(FLl13) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(LPh4) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(CGl50) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(WW68) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(MDy10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(MNi10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(MRP43) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(MRP43) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(MRs10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(NOs8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(UN) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=( Z8220) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RSi23) is not present in table "films".
+
+invalid input syntax for type double precision: "0.5>"
+LINE 1: insert into remakes values ('TYg18', 'PdB6', '0.5>')
+                                                     ^
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(PeG5) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(KrK10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(PTa50) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=( PFo10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(IrC10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(WFr6) is not present in table "films".
+
+invalid input syntax for type double precision: "0.9.6"
+LINE 1: insert into remakes values ('HH13', 'REn32', '0.9.6')
+                                                     ^
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(Z8110) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(Z9080) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RHu10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JSR30) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(SoS) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RM15) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RM16) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RMu20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RMu20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JMS20) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RoV12) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RRw5) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RRw7) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RSi40) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RSpB5) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RtB43) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(NT23) is not present in table "films".
+
+duplicate key value violates unique constraint "remakes_pkey"
+DETAIL:  Key (original_film_id, remake_film_id)=(ICr27, RTh35) already exists.
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(ESP15) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(FLl12) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(RWf15) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(FLl1) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(Ww12) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JoD15) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(SaP40) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(SL28) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(ALH8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(SPo8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(SPo8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(SP37) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(JaS33) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(SK7) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(FTu25) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RaW45) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(TbH3) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(TiB15) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(WCa10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(VF55) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(VF59) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(VJD5) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(VME10) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(W13) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(ALH8) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(WBe12) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(WFr9) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(WFr6) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(WFr6) is not present in table "films".
+
+invalid input syntax for type double precision: "0.8>"
+LINE 1: insert into remakes values ('WiW20', 'WiW29', '0.8>')
+                                                      ^
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RaW27) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_original_film_id_fkey"
+DETAIL:  Key (original_film_id)=(RDR32) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(WW68) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(Z1610) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(Z4338) is not present in table "films".
+
+insert or update on table "remakes" violates foreign key constraint "remakes_remake_film_id_fkey"
+DETAIL:  Key (remake_film_id)=(Z6930) is not present in table "films".
