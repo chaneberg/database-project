@@ -1,0 +1,13 @@
+<remakes>
+    <remake>
+        <rid>
+        <rtitle>
+        <ry>
+        <ryear>
+        <frac>
+        <sid>
+        <stitle>
+        <stype>
+        <sy>
+        <note>
+        <notes>
