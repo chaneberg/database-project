@@ -17,7 +17,7 @@ founders = [('20th Cent.', 'Darryl Zanuck'), ('35mm Film Camera', 'Thomas Edison
 ('LionsGate', 'Mark Urman'), ('London Films', 'Alex Korda'), ('Lorimar', 'Lee Rich'), 
 ('Lubitsch', 'Ernst Lubitsch'), ('Malpaso', 'Clint Eastwood'), ('MGM', 'Bought Loews'), 
 ('MGM-U.A', 'Kirk Kerkorian'), ('Miramax', 'Weinstein'), ('NEF', 'J. Renoir'), ('NEF', 'Andre Zwobada'), 
-('NEF', 'Camille Froancois'), ('NEF', 'Olivier Billiou'), ('NEF', 'C. Renoir '), ('NWP', 'Corman'), 
+('NEF', 'Camille Froancois'), ('NEF', 'Olivier Billiou'), ('NEF', 'C. Renoir'), ('NWP', 'Corman'), 
 ('Paramount', 'William Wadworth Hodkinson'), ('Pathe 2', 'Pathe'), ('Paulist', 'Ellwood Bud Kieser'), 
 ('Ph\`enakistiscope', 'Plateau'), ('Phakinescope', 'Abadie Dutemps'), 
 ('Phenakistiscope', 'Charles Chevalier'), ('Photobioscope', 'Bonnelliot'), 
@@ -47,14 +47,38 @@ cursor.execute('delete from founded;')
 for pair in founders:
 
     studio_name = pair[0]
-    person_id = pair[1]
+    personName = pair[1]
+    personNameSplit = personName.split(' ')
+    first_name = personNameSplit[0] if len(personNameSplit) > 1 else None
+    last_name = personNameSplit[len(personNameSplit) - 1]
 
-    
+    print(personName)
+    print(first_name, last_name)
+    sql = "select * from people where person_id like '%"+last_name[:5]+"%' or last_name like '"+last_name[:5]+"%'"
+    print(sql)
+    try:
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        for record in result:
+            print(record)
+    except:
+        print(sys.exc_info()[1])
+    inp = input("enter id to use: ")
+    person_id = result[int(inp)-1][0] if inp.isdigit() else inp
+
+    try:
+        print(cursor.mogrify("insert into people values (%s, %s, %s, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)", (person_id, first_name, last_name)))
+        cursor.execute("insert into people values (%s, %s, %s, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)", (person_id, first_name, last_name))
+    except:
+        print(sys.exc_info()[1])
     
     try:
+        print(cursor.mogrify("insert into founded values (%s, %s)", (studio_name, person_id)))
         cursor.execute("insert into founded values (%s, %s)", (studio_name, person_id))
     except:
         print(sys.exc_info()[1])
+
+    print()
 
 cursor.close()
 conn.close()
