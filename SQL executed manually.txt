@@ -1,5 +1,5 @@
-grant all privileges on database fmdb to ntripp13;
-grant all privileges on database fmdb to dtirado14;
+grant all on database fmdb to ntripp13;
+grant all on database fmdb to dtirado14;
 
 insert into film_categories values ('Susp', 'thriller');
 insert into film_categories values ('CnR', 'cops and robbers');
@@ -105,3 +105,5 @@ insert into award_types values ('T90', 'Movies of the dcecade', 'Time Magazine',
 insert into award_types values ('VFF', 'Venice', 'Venice Film Festival', 'It');
 insert into award_types values ('WAMPAS', 'WAMPAS', 'Western Association of Motion Picture Advertisers', 'Am');
 insert into award_types values ('Z*', NULL, 'Fred Zinneman', NULL);
+
+delete from remakes where original_film_id = remake_film_id;
