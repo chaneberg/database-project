@@ -39,7 +39,7 @@ for directorfilms in movies:
             if field.tag == 'fid':
                 film_id = field.text
             if field.tag == 't' and field.text:
-                title = field.text[:64]
+                title = field.text[:256]
             if field.tag == 'year' and field.text.isdigit():
                 year = field.text
             if field.tag == 'cats':
